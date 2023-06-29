@@ -1,0 +1,95 @@
+.node {
+    font: 300 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    fill: #bbb;
+   }
+   
+   .node:hover {
+     fill: #000;
+     cursor: pointer;
+   }
+   
+   .link {
+     stroke: #666;
+     stroke-opacity: 1;
+     fill: none;
+     pointer-events: none;
+   }
+   
+   .node:hover,
+   .node--source,
+   .node--target,
+   .node--source--2,
+   .node--target--2 {
+     font-weight: 700;
+   }
+   
+   .link--source,
+   .link--target,
+   .link--source--2,
+   .link--target--2 {
+     stroke-opacity: 1;
+     stroke-width: 2px;
+   }
+   
+   .node--source {
+     fill: #eb8510;
+   }
+   
+   .node--target {
+     fill: #3f7ccc;
+   }
+   
+   .link--target {
+     stroke: #eb8510;
+     opacity: 0.7;
+   }
+   
+   .link--source {
+     stroke: #3f7ccc;
+     opacity: 0.7;
+   }
+   
+   .marker--target {
+       fill: #3f7ccc;
+   }
+   
+   .marker--source {
+       fill: #eb8510;
+   }
+   
+   .node--source--2 {
+     fill: #eb8510;
+     opacity: 1;
+   }
+   
+   .node--target--2 {
+     fill: #3f7ccc;
+     opacity: 1;
+   }
+   
+   .link--target--2 {
+     stroke: #eb8510;
+     stroke-dasharray: 5;
+   }
+   
+   .link--source--2 {
+     stroke: #3f7ccc;
+     stroke-dasharray: 5;
+   }
+
+   path.link {
+    stroke-width: 1.5px;
+  }
+   
+   
+  circle {
+    fill: #ccc;
+    stroke: #fff;
+    stroke-width: 1.5px;
+  }
+   
+  text {
+    fill: #000;
+    font: 10px sans-serif;
+    
+  }
